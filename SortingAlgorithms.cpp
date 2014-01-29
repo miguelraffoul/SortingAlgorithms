@@ -47,10 +47,10 @@ void fillArray( vector<int>& my_vector )
         my_vector.push_back( (rand() % ELEMENTS) + 1 );
 }
 
-void displayArray( const vector<int>& my_array )
+void displayArray( const vector<int>& my_vector )
 {
     for( int i = 0; i < ELEMENTS; ++i )
-        cout << my_array[i] << " ";
+        cout << my_vector[i] << " ";
     cout << endl << endl;
 }
 

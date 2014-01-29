@@ -1,6 +1,6 @@
 SortingAlgorithms
 =================
 
-Algorithms:
-Quick sort
-Bubble sort
+Algorithms:<br>
+Quick sort<br>
+Bubble sort<br>

@@ -1,7 +1,6 @@
 #ifndef QUICKSORT_HPP_INCLUDED
 #define QUICKSORT_HPP_INCLUDED
 
-#include <iostream>
 #include <vector>
 
 /*Quick Sort algorithm*/

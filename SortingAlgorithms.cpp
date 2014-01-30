@@ -5,10 +5,10 @@
 #include <ctime>
 #include <cstdlib>
 
-//#include "QuickSort.hpp"
-//#include "BubbleSort.hpp"
+#include "QuickSort.hpp"
+#include "BubbleSort.hpp"
 #include "MergeSort.hpp"
-//#include "InsertionSort.hpp"
+#include "InsertionSort.hpp"
 
 #define ELEMENTS 10000
 

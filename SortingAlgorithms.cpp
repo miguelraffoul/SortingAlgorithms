@@ -5,9 +5,10 @@
 #include <ctime>
 #include <cstdlib>
 
-#include "QuickSort.hpp"
-#include "BubbleSort.hpp"
-#include "InsertionSort.hpp"
+//#include "QuickSort.hpp"
+//#include "BubbleSort.hpp"
+#include "MergeSort.hpp"
+//#include "InsertionSort.hpp"
 
 #define ELEMENTS 10000
 
@@ -21,15 +22,20 @@ int main()
 {
     vector<int> my_vector;
 
+    //uncomment this following lines when using mergeSort
+    //vector<int> aux_vector;
+    //aux_vector.reserve( ELEMENTS );
+
     fillArray( my_vector );
     //displayArray( my_vector );
 
     high_resolution_clock::time_point t1 = high_resolution_clock::now();
 
     /******Sorting the array**********/
-    //quickSort( my_vector, 0, ELEMENTS - 1 );
+    quickSort( my_vector, 0, ELEMENTS - 1 );
     //bubbleSort( my_vector );
-    insertionSort( my_vector );
+    //insertionSort( my_vector );
+    //mergeSort( my_vector, aux_vector, 0, ELEMENTS - 1 );
     /*********************************/
 
     high_resolution_clock::time_point t2 = high_resolution_clock::now();

@@ -5,8 +5,9 @@
 #include <ctime>
 #include <cstdlib>
 
-#include "BubbleSort.hpp"
 #include "QuickSort.hpp"
+#include "BubbleSort.hpp"
+#include "InsertionSort.hpp"
 
 #define ELEMENTS 10000
 
@@ -26,8 +27,9 @@ int main()
     high_resolution_clock::time_point t1 = high_resolution_clock::now();
 
     /******Sorting the array**********/
-    quickSort( my_vector, 0, ELEMENTS - 1 );
+    //quickSort( my_vector, 0, ELEMENTS - 1 );
     //bubbleSort( my_vector );
+    insertionSort( my_vector );
     /*********************************/
 
     high_resolution_clock::time_point t2 = high_resolution_clock::now();

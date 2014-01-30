@@ -3,7 +3,7 @@
 
 #include <vector>
 
-/*Bubble Sort Algorithm*/
+/*Merge Sort Algorithm*/
 void mergeArrays( std::vector<int>& my_vector, std::vector<int>& aux_vector,
                   int start, int mid,int end  )
 {

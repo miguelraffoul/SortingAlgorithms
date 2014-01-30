@@ -9,8 +9,9 @@
 #include "BubbleSort.hpp"
 #include "MergeSort.hpp"
 #include "InsertionSort.hpp"
+#include "SelectionSort.hpp"
 
-#define ELEMENTS 10000
+#define ELEMENTS 1000
 
 using namespace std;
 using namespace chrono;
@@ -35,6 +36,7 @@ int main()
     quickSort( my_vector, 0, ELEMENTS - 1 );
     //bubbleSort( my_vector );
     //insertionSort( my_vector );
+    //selectionSort( my_vector );
     //mergeSort( my_vector, aux_vector, 0, ELEMENTS - 1 );
     /*********************************/
 

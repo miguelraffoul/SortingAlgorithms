@@ -7,7 +7,7 @@
 
 #include "QuickSort.hpp"
 #include "BubbleSort.hpp"
-//#include "MergeSort.hpp"
+#include "MergeSort.hpp"
 #include "InsertionSort.hpp"
 #include "SelectionSort.hpp"
 
@@ -34,9 +34,9 @@ int main()
 
     /******Sorting the array**********/
     //quickSort( my_vector, 0, ELEMENTS - 1 );
-    bubbleSort( my_vector );
+    //bubbleSort( my_vector );
     //insertionSort( my_vector );
-    //selectionSort( my_vector );
+    selectionSort( my_vector );
     //mergeSort( my_vector, aux_vector, 0, ELEMENTS - 1 );
     /*********************************/
 

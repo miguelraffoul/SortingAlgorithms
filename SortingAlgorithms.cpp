@@ -12,7 +12,7 @@
 #include "SelectionSort.hpp"
 #include "HeapSort.hpp"
 
-#define ELEMENTS 1000000
+#define ELEMENTS 100000000
 
 using namespace std;
 using namespace chrono;
@@ -25,8 +25,8 @@ int main()
     vector<int> my_vector;
 
     //uncomment this following lines when using mergeSort
-    //vector<int> aux_vector;
-    //aux_vector.reserve( ELEMENTS );
+    vector<int> aux_vector;
+    aux_vector.reserve( ELEMENTS );
 
     fillArray( my_vector );
     //displayArray( my_vector );
@@ -37,8 +37,8 @@ int main()
     //quickSort( my_vector, 0, ELEMENTS - 1 );
     //bubbleSort( my_vector );
     //insertionSort( my_vector );
-    selectionSort( my_vector );
-    //mergeSort( my_vector, aux_vector, 0, ELEMENTS - 1 );
+    //selectionSort( my_vector );
+    mergeSort( my_vector, aux_vector, 0, ELEMENTS - 1 );
     //selectionSort( my_vector );
     //heapSort( my_vector );
     /*********************************/

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 #include <vector>
 #include <ratio>
 #include <chrono>
@@ -41,6 +42,7 @@ int main()
     //mergeSort( my_vector, aux_vector, 0, ELEMENTS - 1 );
     //selectionSort( my_vector );
     //heapSort( my_vector );
+    //sort( my_vector.begin(), my_vector.end() ); //Intro sort (gcc std::sort)
     /*********************************/
 
     high_resolution_clock::time_point t2 = high_resolution_clock::now();

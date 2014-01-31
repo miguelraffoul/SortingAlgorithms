@@ -7,11 +7,12 @@
 
 #include "QuickSort.hpp"
 #include "BubbleSort.hpp"
-//#include "MergeSort.hpp"
+#include "MergeSort.hpp"
 #include "InsertionSort.hpp"
 #include "SelectionSort.hpp"
+#include "HeapSort.hpp"
 
-#define ELEMENTS 100000
+#define ELEMENTS 1000000
 
 using namespace std;
 using namespace chrono;
@@ -34,10 +35,11 @@ int main()
 
     /******Sorting the array**********/
     //quickSort( my_vector, 0, ELEMENTS - 1 );
-    bubbleSort( my_vector );
+    //bubbleSort( my_vector );
     //insertionSort( my_vector );
-    //selectionSort( my_vector );
     //mergeSort( my_vector, aux_vector, 0, ELEMENTS - 1 );
+    //selectionSort( my_vector );
+    //heapSort( my_vector );
     /*********************************/
 
     high_resolution_clock::time_point t2 = high_resolution_clock::now();

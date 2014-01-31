@@ -37,6 +37,10 @@ int main()
     //quickSort( my_vector, 0, ELEMENTS - 1 );
     //bubbleSort( my_vector );
     //insertionSort( my_vector );
+<<<<<<< HEAD
+=======
+    selectionSort( my_vector );
+>>>>>>> 474b648df083043b67e3e0f056408c936d7f70b2
     //mergeSort( my_vector, aux_vector, 0, ELEMENTS - 1 );
     //selectionSort( my_vector );
     //heapSort( my_vector );

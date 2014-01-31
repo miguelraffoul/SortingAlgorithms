@@ -12,7 +12,8 @@ void selectionSort( std::vector<int> &my_vector )
     for( int i = 0 ; i < size ; ++i )
     {
         smallest_int_p = i;
-        for( int j = i + 1  ; j < size ; ++j ){
+        for( int j = i + 1  ; j < size ; ++j )
+        {
             if( my_vector[smallest_int_p] > my_vector[j] )
                 smallest_int_p = j;
         }
